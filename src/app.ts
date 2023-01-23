@@ -2,7 +2,7 @@ import express, { request, response } from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 
-const app = express();
+export const app = express();
 const port = 3333;
 
 app.use(cors({origin: "http://localhost:3333"}));
